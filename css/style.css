@@ -114,10 +114,14 @@ section.banner {
 
 section.cadastro {
     background-color: #26A69A;
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 section.cadastro h2 {
     color: white;
     font-size: 24px;
+}
+
+svg{
+    margin-bottom: 5px;
 }
