@@ -125,3 +125,15 @@ section.cadastro h2 {
 svg{
     margin-bottom: 5px;
 }
+
+section.servicos{
+    background-color: rgb(245, 245, 245);
+}
+
+section.servicos h3{
+    color: #26A69A;
+}
+
+section.servicos div > h2{
+    font-size: 25px;
+}

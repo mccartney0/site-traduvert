@@ -22,20 +22,12 @@
                     <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
                 </svg>
             </a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+            <a class="py-2 d-none d-md-inline-block" href="#">Página Inicial</a>
+            <a class="py-2 d-none d-md-inline-block" href="#servicos">Serviços</a>
+            <a class="py-2 d-none d-md-inline-block" href="#contato">Contato</a>
         </div>
     </nav>
-    <!-- <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-        <div class="col-md-5 p-lg-5 mx-auto my-5 banner">
-            <h1 class="display-4 font-weight-normal">Traduvert</h1>
-            <p class="lead font-weight-normal">Empresa de desenvolvimento web, mobile e localização</p>
-            <a class="btn btn-outline-secondary" href="#">Saiba Mais!</a>
-        </div>
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-    </div> -->
+
     <div class="box">
         <section class="banner">
             <div class="overlay"></div>
@@ -44,11 +36,63 @@
                     <div class="col-md-12 text-center chamada-banner">
                         <h2>Traduvert</h2>
                         <p>Empresa de desenvolvimento web, mobile e localização</p>
-                        <button type="button" class="btn btn-secondary">Saiba Mais!</button>
+                        <a href="#conheca"><button type="button" class="btn btn-secondary">Saiba Mais!</button></a>
                     </div>
                 </div>
             </div>
-        </section>
+        </section><!-- Banner -->
+
+        <section id="conheca" class="my-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h2>Boas vindas</h2>
+                        <p>Lorem Ipsum dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif </p>
+                    </div>
+                </div>
+            </div>
+        </section><!-- Depoimento -->
+
+        <section id="servicos" class="text-center servicos mb-5">
+            <h2 class="mb-5">Serviços oferecidos</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg></h3>
+                        <h2>Sistemas Web</h2>
+                        <p>Lorem Ipsum dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-sunglasses" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M3 5a2 2 0 0 0-2 2v.5H.5a.5.5 0 0 0 0 1H1V9a2 2 0 0 0 2 2h1a3 3 0 0 0 3-3 1 1 0 1 1 2 0 3 3 0 0 0 3 3h1a2 2 0 0 0 2-2v-.5h.5a.5.5 0 0 0 0-1H15V7a2 2 0 0 0-2-2h-2a2 2 0 0 0-1.888 1.338A1.99 1.99 0 0 0 8 6a1.99 1.99 0 0 0-1.112.338A2 2 0 0 0 5 5H3zm0 1a1 1 0 0 0-1 1v.941c0 .264.356.348.474.112l.228-.457a2 2 0 0 1 .894-.894l.457-.228C4.289 6.356 4.205 6 3.94 6H3z" />
+                            </svg></h3>
+                        <h2>Localização</h2>
+                        <p>Lorem Ipsum dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
+                            </svg></h3>
+                        <h2>App Mobile</h2>
+                        <p>Lorem Ipsum dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif </p>
+                    </div>
+                </div>
+            </div>
+        </section><!-- Serviços -->
+
+        <section id="contato" class="mb-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <h2>Contato</h2>
+                        <p>Lorem Ipsum dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif dolor sit amet, consectetur elif</p>
+                    </div>
+                </div>
+            </div>
+        </section><!-- Contato -->
+
         <section class="cadastro">
             <div class="container">
                 <div class="row text-center">
@@ -72,7 +116,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> <!-- Cadastro -->
     </div><!-- Box -->
 
 
